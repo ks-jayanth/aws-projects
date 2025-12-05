@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No dependencies to install"
+  build:
+    commands:
+      - echo "Build step - just passing files through"
+artifacts:
+  files:
+    - '**/*'
